@@ -10,4 +10,16 @@ public class ContoBancario {
     public void prelevaDaConto(double importo){
         this.saldo = this.saldo - importo;
     }
+    
+    public void depositaInConto(double importo){
+        this.saldo = this.saldo + importo;
+    }
+
+    public double getSaldo(){
+        return saldo;
+    }
+
+    public int getNumeroConto(){
+        return numeroConto;
+    }
 }
