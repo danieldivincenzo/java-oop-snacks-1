@@ -1,3 +1,5 @@
+package studenti;
+
 public class Studente {
     private String nome;
     private String cognome;
@@ -10,7 +12,6 @@ public class Studente {
     }
     
     public String concatStudente(){
-        String datiConcat = this.nome + " " + this.cognome + ", " + this.eta + " anni ";
-        return datiConcat;
+        return nome + " " + cognome + ", " + eta + " anni ";
     }
 }

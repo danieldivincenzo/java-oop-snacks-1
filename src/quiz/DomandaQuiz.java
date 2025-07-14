@@ -1,3 +1,4 @@
+package quiz;
 public class DomandaQuiz {
     private String testo;
     private String rispostaCorretta;
